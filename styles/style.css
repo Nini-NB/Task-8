@@ -1,0 +1,159 @@
+.bg{
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/Group\ 5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 50px;
+}
+.nav-bar ul {
+    display: flex;
+}
+.nav-bar ul li:last-child {
+    margin: 0;
+}
+.nav-bar ul li a {
+    margin: 0 20px 0 0;
+    font-size: 12px;
+    color:#D9F0FF;
+    text-transform: uppercase;
+    font-family: 'Poppins-Medium';
+}
+.logo {
+    color:#D9F0FF;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Dancing Script';
+}
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section1 img {
+    width: 50%;
+}
+.block h1 {
+    margin: 200px 0 100px 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 100px;
+    font-family: 'Lato';
+}
+button {
+    width: 307px;
+    height: 72px;
+    border-radius: 36px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color:#325DFF;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Lato';
+    
+}
+.section1-textBox {
+    margin: 0 0 0 70px;
+}
+.section1-textBox h2 {
+    width: 468px;
+    height: 186px;
+    font-size: 50px;
+    font-family: 'Lato';
+}
+.section1-textBox p {
+    width: 457px;
+    height: 128px;
+    color: #707070;
+    line-height: 25px;
+    font-size: 16px;
+    font-family: 'Poppins-Regular';
+}
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 90px 0 120px 0;
+    background-color: #FAFAFA;
+}
+.section2-titles {
+    width: 770px;
+    height: 130px;
+    margin: 0 0 80px 0;
+    text-align: center;
+}
+.section2-titles h2 {
+    margin: 0 0 20px 0;
+    font-size: 35px;
+    font-family: 'Lato';
+}
+.section2-titles h3 {
+    color: #707070;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: 'Poppins-Regular';
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.boxes2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 371px;
+    height: 374px;
+    margin: 0 30px 30px 0;
+    border: 0.5px solid #CECECE;
+    background-color: #fff;
+}
+.wrapper {
+    position: relative;
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #325DFF;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.child-box h5 {
+    margin: 30px 0;
+    font-size: 15px;
+    font-family: 'Lato';
+}
+.child-box p {
+    width: 250px;
+    height: 106px;
+    color: #707070;
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    font-family: 'Poppins-Light';
+}
